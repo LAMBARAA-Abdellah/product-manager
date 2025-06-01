@@ -1,59 +1,59 @@
-# ProductManager
+# 📦 MyProductApp — Gestion de Produits avec Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.14.
+Application Angular moderne pour la gestion des produits avec authentification, CRUD, et navigation sécurisée.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Fonctionnalités
 
-```bash
-ng serve
-```
+- ✅ Connexion par email / mot de passe
+- 🔒 Sécurité avec AuthGuard
+- 🧭 Navigation conditionnelle (Connexion / Déconnexion)
+- 📋 Liste de produits locale (id, nom, prix, selected, checked)
+- ➕ Ajouter, ✏️ Modifier, 🗑 Supprimer des produits
+- ⚠ Confirmation avant suppression
+- 🎉 Messages de succès pour chaque action
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📸 Aperçu visuel
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 🔐 Page de connexion
+![Login](./screenshots/login.jpg)
 
-```bash
-ng generate component component-name
-```
+### 🏠 Page d'accueil
+![Accueil](./screenshots/acceuil.jpg)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### ➕ Ajout d’un produit
+![Ajout](./screenshots/ajout.jpg)
 
-```bash
-ng generate --help
-```
+### 📝 Modification d’un produit
+![Édition](./screenshots/edit.jpg)
 
-## Building
+### 🗑️ Confirmation de suppression
+![Suppression](./screenshots/delete.jpg)
 
-To build the project run:
+### 📄 Liste des produits
+![Liste](./screenshots/listProduct.jpg)
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🧪 Accès de test
 
-## Running unit tests
+> **Email :** `admin@ocpgroup.ma`  
+> **Mot de passe :** `password`
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 🛠 Technologies utilisées
 
-## Running end-to-end tests
+- Angular 17+
+- Bootstrap 5 & Bootstrap Icons
+- TypeScript
+- LocalStorage (pour persister l'état de connexion)
+- Angular Router + AuthGuard
+- Design responsive mobile/desktop
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📁 Structure du projet
